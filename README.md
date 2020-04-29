@@ -35,5 +35,5 @@ complete tlg in sec
 where | 0 | 1 | 2 | 3 |
 ------------ | ------------- | ------------- | ------------- | ------------- |
 Windows 8.1, WAMPSERVER 3.1.0, PHP 7.1.9 | 152 | 556 | 261 | not yet tested |
-Content | 0 | 1 | 2 | 3 |
+Mint 19.1, Apache 2.4.29 (Ubuntu), PHP 7.24 | 628 | 1081 | 775 | not yet tested |
 
