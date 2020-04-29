@@ -28,3 +28,12 @@ Testing speed of splitting NFD-strings
 
         #$linearray = mb_str_split($line[1]); # !!! PHP 7.4     
         
+
+## Tests
+
+complete tlg in sec
+where | 0 | 1 | 2 | 3 |
+------------ | ------------- | ------------- | ------------- | ------------- |
+Windows 8.1, WAMPSERVER 3.1.0, PHP 7.1.9 | 152 | 556 | 261 | not yet tested |
+Content | 0 | 1 | 2 | 3 |
+
