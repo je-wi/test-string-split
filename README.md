@@ -14,17 +14,17 @@ Testing speed of splitting NFD-strings
             0002-003.tsv
             0002-004.tsv 
 ````     
-### 0. without splitting: uncomment nothing  
+### 0. without splitting the strings: use of file() and explode() for loading the content
 
-### 1. mb_split_array: helper functions, mb_strlen() and mb_substr()
+### 1. mb_split_array: own helper function, use of mb_strlen() and mb_substr() for splitting
     
         #$linearray = mb_split_array($line[1]);   
 
-### 2. preg_split: regular expression with negative lookbehind  
+### 2. preg_split: use regular expression with negative lookbehind for splitting  
 
         #$linearray = preg_split( '/(?<!^)(?!$)/u', $line[1] );
         
-### 3. mb_str_split: PHP >= 7.4 
+### 3. mb_str_split: future release PHP >= 7.4 
 
         #$linearray = mb_str_split($line[1]); # !!! PHP 7.4     
         
