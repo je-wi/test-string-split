@@ -35,17 +35,14 @@ Testing speed of splitting NFD-strings
 ## Tests
 The tests where performed localy on different computers to illustrate the tendency and not the computer performance.
 
-Testfiles in seconds
-w | 0 | 1 | 2 | 3 |
---- | ---: | ---: | ---: | ---: |
+Testfiles in seconds | 0 | 1 | 2 | 3 |
+:--- | ---: | ---: | ---: | ---: |
 Windows 8.1, Apache 2.4.27 (Win 64), PHP 7.1.9 | 3.4 | 12.2 | 5.8 | not yet tested |
 Mint 19.1, Apache 2.4.29 (Ubuntu), PHP 7.24 | 13.6 | 23.2 | 15.8 | not yet tested |
 Debain 10, Apache 2.4.38 (Debian), PHP 7.3.14-1 | 8.9 | 18.4 | 13 | not yet tested |
 
-
-Complete tlg-e in seconds
-w | 0 | 1 | 2 | 3 |
---- | ---: | ---: | ---: | ---: |
+Complete tlg-e in seconds | 0 | 1 | 2 | 3 |
+:--- | ---: | ---: | ---: | ---: |
 Windows 8.1, Apache 2.4.27 (Win 64), PHP 7.1.9 | 152 | 556 | 261 | not yet tested |
 Mint 19.1, Apache 2.4.29 (Ubuntu), PHP 7.24 | 628 | 1081 | 775 | not yet tested |
 Debain 10, Apache 2.4.38 (Debain), PHP 7.3.14-1 | 481 | 967 | 699 | not yet tested |
