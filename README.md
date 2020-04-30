@@ -1,7 +1,7 @@
 # test-string-split
 Testing speed of splitting NFD-strings
 
-### some testfiles here
+### Testfiles in this folder
 ````        
         tlg_tok_tsv/
           0001/
@@ -13,7 +13,7 @@ Testing speed of splitting NFD-strings
             0002-002.tsv 
             0002-003.tsv
             0002-004.tsv 
-````     
+  ````   
 ### 0. without splitting the strings: use of file() and explode() for loading the content
 
 ### 1. mb_split_array: own helper function, use of mb_strlen() and mb_substr() for splitting
@@ -33,17 +33,17 @@ Testing speed of splitting NFD-strings
 The tests where performed localy on different computers to illustrate the tendency and not the computer performance.
 
 Testfiles in seconds
-where | 0 | 1 | 2 | 3 |
------------- | ------------- | ------------- | ------------- | ------------- |
-Windows 8.1, WAMPSERVER 3.1.0, PHP 7.1.9 | 3.4 | 12.2 | 5.8 | not yet tested |
+w | 0 | 1 | 2 | 3 |
+--- | ---: | ---: | ---: | ---: |
+Windows 8.1, Apache 2.4.27 (Win 64), PHP 7.1.9 | 3.4 | 12.2 | 5.8 | not yet tested |
 Mint 19.1, Apache 2.4.29 (Ubuntu), PHP 7.24 | 13.6 | 23.2 | 15.8 | not yet tested |
-Debain 10, Apache 2.4.38, PHP 7.3.14-1 | 8.9 |  |  | not yet tested |
+Debain 10, Apache 2.4.38 (Debian), PHP 7.3.14-1 | 8.9 | 18.4 | 13 | not yet tested |
 
 
 Complete tlg-e in seconds
-where | 0 | 1 | 2 | 3 |
------------- | ------------- | ------------- | ------------- | ------------- |
-Windows 8.1, WAMPSERVER 3.1.0, PHP 7.1.9 | 152 | 556 | 261 | not yet tested |
+w | 0 | 1 | 2 | 3 |
+--- | ---: | ---: | ---: | ---: |
+Windows 8.1, Apache 2.4.27 (Win 64), PHP 7.1.9 | 152 | 556 | 261 | not yet tested |
 Mint 19.1, Apache 2.4.29 (Ubuntu), PHP 7.24 | 628 | 1081 | 775 | not yet tested |
-Debain 10, Apache 2.4.38, PHP 7.3.14-1 | 481 |  |  | not yet tested |
+Debain 10, Apache 2.4.38 (Debain), PHP 7.3.14-1 | 481 | 967 | 699 | not yet tested |
 
