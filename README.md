@@ -1,7 +1,7 @@
 # test-string-split
 Testing speed of splitting NFD-strings
 
-### Testfiles in this folder
+## Testfiles in tlg_tok_tsv
 ````        
         tlg_tok_tsv/
           0001/
@@ -14,6 +14,9 @@ Testing speed of splitting NFD-strings
             0002-003.tsv
             0002-004.tsv 
   ````   
+  
+## test_mb_string_split.php
+
 ### 0. without splitting the strings: use of file() and explode() for loading the content
 
 ### 1. mb_split_array: own helper function, use of mb_strlen() and mb_substr() for splitting
