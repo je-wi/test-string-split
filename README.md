@@ -30,15 +30,20 @@ Testing speed of splitting NFD-strings
         
 
 ## Tests
-testfiles in sec
+The tests where performed localy on different computers to illustrate the tendency and not the computer performance.
+
+Testfiles in seconds
 where | 0 | 1 | 2 | 3 |
 ------------ | ------------- | ------------- | ------------- | ------------- |
 Windows 8.1, WAMPSERVER 3.1.0, PHP 7.1.9 | 3.4 | 12.2 | 5.8 | not yet tested |
 Mint 19.1, Apache 2.4.29 (Ubuntu), PHP 7.24 | 13.6 | 23.2 | 15.8 | not yet tested |
+Debain 10, Apache 2.4.38, PHP 7.3.14-1 | 8.9 |  |  | not yet tested |
 
-complete tlg in sec
+
+Complete tlg-e in seconds
 where | 0 | 1 | 2 | 3 |
 ------------ | ------------- | ------------- | ------------- | ------------- |
 Windows 8.1, WAMPSERVER 3.1.0, PHP 7.1.9 | 152 | 556 | 261 | not yet tested |
 Mint 19.1, Apache 2.4.29 (Ubuntu), PHP 7.24 | 628 | 1081 | 775 | not yet tested |
+Debain 10, Apache 2.4.38, PHP 7.3.14-1 | 481 |  |  | not yet tested |
 
